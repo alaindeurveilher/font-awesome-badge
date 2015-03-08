@@ -1,0 +1,308 @@
+/*!
+ *  Font Awesome Badge 1.0.0 by @alaind
+ *  License MIT
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+	font-family: 'fontawesome-badge';
+	src:url('../fonts/fontawesome-badge.eot?-jfq2lu');
+	src:url('../fonts/fontawesome-badge.eot?#iefix-jfq2lu') format('embedded-opentype'),
+		url('../fonts/fontawesome-badge.woff?-jfq2lu') format('woff'),
+		url('../fonts/fontawesome-badge.ttf?-jfq2lu') format('truetype'),
+		url('../fonts/fontawesome-badge.svg?-jfq2lu#fontawesome-badge') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fa-badge {
+  display: inline-block;
+  font: normal normal normal 14px/1 'fontawesome-badge';
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+/*.fa-badge {
+	font-family: 'fontawesome-badge';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/ * Better Font Rendering =========== * /
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}*/
+
+
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fa.pull-left {
+  margin-right: .3em;
+}
+.fa.pull-right {
+  margin-left: .3em;
+}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-badge-stack {
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+.fa-badge-bottom-circle-surround:before {
+	content: "\e600";
+}
+
+.fa-badge-bottom-circle:before {
+	content: "\e601";
+}
+
+.fa-badge-bottom-info:before {
+	content: "\e602";
+}
+
+.fa-badge-bottom-exclamation:before {
+	content: "\e603";
+}
+
+.fa-badge-bottom-question:before {
+	content: "\e604";
+}
+
+.fa-badge-bottom-plus:before {
+	content: "\e605";
+}
+
+.fa-badge-bottom-minus:before {
+	content: "\e606";
+}
+
+.fa-badge-bottom-check-circle:before {
+	content: "\e607";
+}
+
+.fa-badge-bottom-check:before {
+	content: "\e608";
+}
+
+.fa-badge-bottom-times:before {
+	content: "\e609";
+}
+
+.fa-badge-bottom-ban:before {
+	content: "\e60a";
+}
+
+.fa-badge-bottom-gear:before {
+	content: "\e60b";
+}
+
+.fa-badge-bottom-clock-o:before {
+	content: "\e60c";
+}
+
+.fa-badge-bottom-clock:before {
+	content: "\e60d";
+}
+
+.fa-badge-bottom-download:before {
+	content: "\e60e";
+}
+
+.fa-badge-bottom-bolt:before {
+	content: "\e60f";
+}
+
+.fa-badge-bottom-filter:before {
+	content: "\e610";
+}
+
+.fa-badge-bottom-filter-sm:before {
+	content: "\e611";
+}
+
+.fa-badge-bottom-smile:before {
+	content: "\e612";
+}
+
+.fa-badge-bottom-meh:before {
+	content: "\e613";
+}
+
+.fa-badge-bottom-frown:before {
+	content: "\e614";
+}
+
+.fa-badge-bottom-heart:before {
+	content: "\e615";
+}
+
+.fa-badge-bottom-heartbeat:before {
+	content: "\e616";
+}
+
+.fa-badge-bottom-history:before {
+	content: "\e617";
+}
+
+.fa-badge-bottom-history-sm:before {
+	content: "\e618";
+}
+
+.fa-badge-bottom-refresh:before {
+	content: "\e619";
+}
+
+.fa-badge-bottom-refresh-sm:before {
+	content: "\e61a";
+}
+
